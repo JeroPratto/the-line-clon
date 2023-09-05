@@ -7,7 +7,7 @@
   >
     <v-toolbar-title>
       <div class="containerLogo">
-        <img src="logo-neom.webp" alt="Logo" />
+        <img :src="Logo" alt="Logo" />
       </div>
     </v-toolbar-title>
     <a href="#contactForm" class="invest">INVEST IN NEOM</a>
@@ -48,6 +48,7 @@
 
 <script setup lang="ts">
 import { ref } from "vue";
+import Logo from "/logo-neom.webp";
 let drawer = ref(false);
 let colorNavbar = ref("transparent");
 window.addEventListener("scroll", function () {
