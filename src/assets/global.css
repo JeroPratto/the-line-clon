@@ -1,0 +1,35 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+a{
+  color: inherit;
+  text-decoration: none;
+}
+
+:root{
+  --yellow: #ebc03f;
+}
+ul, li{
+  list-style-type: none;
+}
+.v-expansion-panel-text__wrapper{
+  padding: 0 !important;
+}
+.v-expansion-panel--after-active, .v-expansion-panel--active{
+  margin-top: 0 !important;
+}
+.v-carousel{
+  height: 100svh !important;
+}
+.v-navigation-drawer{
+  top: 0 !important;
+  height: 100svh !important;
+  z-index: 1500 !important;
+}
+.v-main{
+  padding-top: 0 !important;
+}
