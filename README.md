@@ -1,44 +1,27 @@
-# default
+# The Line
 
-## Project setup
+This project is a blog where the idea behind it is to provide simple solutions to problems that I find interesting.
 
-```
-# yarn
-yarn
+## How to install and Run
 
-# npm
+```bash
+# Clone this project
+git clone https://github.com/JeroPratto/the-line-clon.git
+# Install
 npm install
-
-# pnpm
-pnpm install
-```
-
-### Compiles and hot-reloads for development
-
-```
-# yarn
-yarn dev
-
-# npm
+# Run
 npm run dev
-
-# pnpm
-pnpm dev
 ```
 
-### Compiles and minifies for production
+## Technologies
 
-```
-# yarn
-yarn build
+- Vue.js
+- Vuetify
+- Typescript
+- vite
 
-# npm
-npm run build
+## This is the final result.
 
-# pnpm
-pnpm build
-```
+Open [http://localhost:3000/](http://localhost:3000/) with your browser to see the result.
 
-### Customize configuration
-
-See [Configuration Reference](https://vitejs.dev/config/).
+![image of this project](/readmeImage/the-line.jpeg 'The Line')
