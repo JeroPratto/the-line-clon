@@ -1,7 +1,5 @@
 # The Line
 
-This project is a blog where the idea behind it is to provide simple solutions to problems that I find interesting.
-
 ## How to install and Run
 
 ```bash
